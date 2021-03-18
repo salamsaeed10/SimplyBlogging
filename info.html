@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="info.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href= "info.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+    </head>
+
+
+    <body>  
+    <h1>Simply Blogging</h1>
+
+    <p>
+        <nav>
+            <ul class= "nav justify-content-end">
+            <li class= "nav-item"></li>
+            <a href="#" class="nav-link">about us</a>
+        </li>
+            <li class= "nav-item">
+            <a href="#" class="nav-link">contact us</a> 
+        </li>
+            <li class= "nav-item">
+                
+            <a href="#" class="nav-link">blog</a>
+        </li>
+            <li class= "nav-item">
+            <a href="#" class="nav-link">log in</a>
+        </li>
+        </ul>
+        </nav>
+    </p>
+
+
+   <div id="a"> 
+       Title:  <input type="text" name="" id="title"/><br><br>
+    Article : <textarea input type="text" id= "desc"></textarea><br><br>
+    Image  <input type="file" id="imageId" /><br><br>
+
+<input type="button" value="Add Blog" onclick= addBlog() class="btn btn-danger"/>
+<hr/>
+
+
+<div>
+    <div id= "titleInfo"></div>
+    <div id= "descInfo"></div>
+    <img src="" id="imageInfo">
+</div>
+
+</div>
+
+
+</body>
+</html>
